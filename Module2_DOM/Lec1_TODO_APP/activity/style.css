@@ -1,0 +1,50 @@
+ *{
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+     background-color: lightskyblue;
+ }
+ .input-container{
+     margin-top: 10vh;
+     margin-left: 60vh;
+     background: violet;
+     height: 10vh;
+     width : 60vh;
+
+
+ }
+ .todo-input{
+     margin-left: 15vh;
+     margin-top: 3vh;
+     background: white;
+     size: 50;
+
+ }
+ .add-todo{
+     background: white;
+
+ }
+ .todos-container{
+
+ }
+ .todos-list{
+
+ }
+ .todo-item{
+     margin-top:4vh;
+     margin-left : 60vh;
+    background: palegreen;
+    height :10vh;
+    width : 60vh;
+
+ }
+ .todo{
+     margin-left: 15vh ;
+     /* color: blueviolet; */
+
+ }
+ .delete-task{
+     margin-left: 15vh ;
+    background: white;
+
+ }
