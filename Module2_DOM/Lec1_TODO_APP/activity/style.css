@@ -1,50 +1,115 @@
- *{
-     box-sizing: border-box;
-     margin: 0px;
-     padding: 0px;
-     background-color: lightskyblue;
- }
- .input-container{
-     margin-top: 10vh;
-     margin-left: 60vh;
-     background: violet;
-     height: 10vh;
-     width : 60vh;
+*{
 
+    margin: 0px;
+    
+    box-sizing: border-box;
+    
+    padding: 0px;
 
- }
- .todo-input{
-     margin-left: 15vh;
-     margin-top: 3vh;
-     background: white;
-     size: 50;
+    font-family: 'Slabo 27px', serif;
+    }
+        
+        body{
+        
+background: #778beb;
+    }
+        
+        .input-container{
+        
+        /* border: 2px solid lightblue; */
+        
+        height: 15vh;
+        
+        /* width: 87vh; */
+        
+        padding: 3vh;
+        
+        }
+        
+        .todo-input{
+        
+        display: block;
 
- }
- .add-todo{
-     background: white;
-
- }
- .todos-container{
-
- }
- .todos-list{
-
- }
- .todo-item{
-     margin-top:4vh;
-     margin-left : 60vh;
-    background: palegreen;
-    height :10vh;
-    width : 60vh;
-
- }
- .todo{
-     margin-left: 15vh ;
-     /* color: blueviolet; */
-
- }
- .delete-task{
-     margin-left: 15vh ;
-    background: white;
-
- }
+        margin: auto;
+        
+        width: 33%;
+        
+        height: 43%;
+        
+        border: none;
+        
+        border-radius: 1rem;
+        
+        outline: none;
+        
+        text-align: center;
+        
+        font-size: 2rem;
+        }
+        
+        .add-todo{
+        
+    display: block;
+        
+    margin: auto;
+        
+    margin-top: 0.7rem;
+        
+    padding: .7rem;
+        
+    border: none;
+        
+    border-radius: 1rem;
+        
+    width: 7%;
+        
+    outline: none;
+        }
+        
+        .todos-container{
+        
+    border: none;;
+        
+    height: 83vh;
+        }
+        
+        .todos-list{
+        
+        }
+        
+        .todo-item{
+        
+border: none;
+        
+display: block;
+        
+width: 49%;
+        
+margin: auto;
+        
+margin-top: 2rem;
+        
+padding: 1rem;
+        
+background: #546de5;
+        
+border-radius: 3rem;
+        
+outline: none;
+        }
+        
+        .todo{
+        display: inline;
+        font-size: 2rem;
+        padding-left: 2rem;
+        color: mediumspringgreen;
+        }
+        
+        .delete-task{
+        float: right;
+        height: 1.5rem;
+        border-bottom-left-radius: 13px;
+        border: none;
+        margin-top: 0.5rem;
+        margin-right: 2rem;
+        }

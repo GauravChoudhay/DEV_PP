@@ -31,6 +31,9 @@ function addTodo(){
         todosList.append(listItem);
         todoInput.value = "";
     }
+    else{
+        alert("kuch likh to le phele ");
+    }
 }
 
 addTodoButton.addEventListener("click" , function(){
