@@ -132,6 +132,7 @@ top: 30px;
     height: 100%;
     width: 20%;
     border-right: 3px solid lightgray;
+    padding: 5px;
 }
 .add-sheet {
     width: 30px;
