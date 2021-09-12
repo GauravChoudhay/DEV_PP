@@ -18,4 +18,4 @@ function Hello(props){
     return <h1>hello from {props.name} component!!</h1>
 }
 
-ReactDOM.render( <BigHello></BigHello> , document.querySelector("#root"));
+ReactDOM.render( <BigHello></BigHello> , document.querySelector("#root")); 
