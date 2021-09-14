@@ -1,3 +1,8 @@
+// npm init -y
+// npm i express
+// npm i nodemon -g  ( and then go to package.json and add "start" : "nodemon app.js" to script object)
+
+
 const express = require("express");
 
 
@@ -27,6 +32,27 @@ app.get("/user",function(req,res){
     res.json(user);
 
 } )
+
+//update
+app.patch("/user", function (req, res) {
+    let obj = req.body;
+    for (let key in obj) {
+        user[key] = obj[key];
+    }
+    res.status(200).json(user);
+})
+//delete
+app.delete("/user", function (req, res) {
+    user = {}
+    res.status(200).json(user);
+})
+
+//template routes 
+app.get("/user/:id", function (req, res) {
+    console.log(req.params);
+    res.status(200).send("Hello");
+})
+
 
 
 app.listen(8080,function(){
