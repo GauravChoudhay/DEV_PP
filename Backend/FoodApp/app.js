@@ -54,9 +54,14 @@ userRouter
     .route("/:id")
     .get(getUserById);
 authRouter
-.post("/signup",signupUser)
+.post("/signup",setCreatedAt,signupUser)
 .post("/login",loginUser)
 
+
+function setCreatedAt(req,res,next){
+    req.body.createdAt = new Date().toISOString();
+    next();
+}
 
 function createUser(req, res) {
     console.log("req.data", req.body);
